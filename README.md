@@ -18,6 +18,28 @@ This project features an **Active Heated Drybox** designed for 5 filament spools
 * `/CAD`: 3D models (STL/STEP) for the enclosure corners, electronics base, and internal spool rollers.
 * `/Firmware`: Pre-configured Marlin source code and compiled `firmware.bin`.
 
+| Component | Quantity | Total Price USD | Supplier |
+| :--- | :---: | :---: | :--- |
+| Screen with controller | 1 | 17,42 | Aliexpress |
+| M3 20mm Standoff | 4 | 5,15 | Aliexpress |
+| Rubber Hose 2mm | 3m | 4,26 | Aliexpress |
+| 608RS Bearings | 20 | 11,53 | Aliexpress |
+| Nema 17 Motors | 5 | 50,3 | Aliexpress |
+| 24V/20A Power Supply | 1 | 41,95 | Aliexpress |
+| SKR3 control board + drivers | 1 | 77,29 | Aliexpress |
+| 24V/250W PTC heater | 1 | 9,35 | Aliexpress |
+| PTFE Tube Connector | 10 | 6,76 | Aliexpress |
+| power plug | 1 | 2,31 | Aliexpress |
+| B3950 heat sensor | 2 | 16,1 | Aliexpress |
+| 4010 fan | 3 | 8,91 | Aliexpress |
+| 505020 fan | 2 | 9,72 | Aliexpress |
+| dual drive extruder | 5 | 43,9 | Aliexpress |
+| PC Panels | custom | 81,09 | PannelliPlastica |
+| **Total price:** | | **386,04** | |
+| **Total price+shipping** | | **395,44** | |
+
+> All the screws, heat press inserts and nuts I will buy them by myself to stay under 400 USD
+
 ---
 
 ## 🔧 Firmware Configuration (Marlin)
