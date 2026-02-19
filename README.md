@@ -1,10 +1,10 @@
-# 🚀 5-Spool Heated Drybox & AMS-Ready Controller
+# 5-Spool Heated Drybox & AMS-Ready Controller
 
 This project features an **Active Heated Drybox** designed for 5 filament spools, managed by a **BigTreeTech SKR 3** 3D printer motherboard. The system ensures filaments remain dehumidified and print-ready, with a hardware foundation prepared for future AMS (Automatic Material System) expansion.
 
 ---
 
-## 🛠 Technical Specifications
+## Technical Specifications
 * **Controller:** BigTreeTech SKR 3 (Marlin 2.1.x Firmware).
 * **Capacity:** 5 standard spools (up to 200mm diameter).
 * **Heating:** 24V PTC Heater with a 5015 Blower Fan for active air circulation.
@@ -14,7 +14,8 @@ This project features an **Active Heated Drybox** designed for 5 filament spools
 
 ---
 
-## 📂 Repository Structure
+
+# Repository Structure
 * `/CAD`: 3D models (STL/STEP) for the enclosure corners, electronics base, and internal spool rollers.
 * `/Firmware`: Pre-configured Marlin source code and compiled `firmware.bin`.
 
@@ -41,8 +42,15 @@ This project features an **Active Heated Drybox** designed for 5 filament spools
 > All the screws, heat press inserts and nuts I will buy them by myself to stay under 400 USD
 
 ---
+## Images
+FullAssembly
+![Screenshot 2026-02-12 185748](Images/Screenshot 2026-02-12 185748.png)
+Latches
+![Screenshot 2026-02-03 210612](Images/Screenshot 2026-02-03 210612.png)
+Hinges
+![Screenshot 2026-02-03 182002](Images/Screenshot 2026-02-03 182002.png)
 
-## 🔧 Firmware Configuration (Marlin)
+## Firmware Configuration (Marlin)
 The system utilizes a specialized build of Marlin. Key modifications in `Configuration.h` include reassigning the Heated Bed output to drive the Chamber Heater:
 
 ```cpp
